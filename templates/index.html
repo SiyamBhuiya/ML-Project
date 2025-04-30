@@ -1,2 +1,16 @@
-<h1>Welcome to the home page</h1>
-<p>This is a simple Flask application.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Student Exam Performance Indicator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Student Exam Performance Indicator</h1>
+        <p>This application helps predict student math scores based on various factors such as gender, ethnicity, parental education, and more.</p>
+        <a href="{{ url_for('home') }}" class="btn">Go to Prediction Form</a>
+    </div>
+</body>
+</html>
